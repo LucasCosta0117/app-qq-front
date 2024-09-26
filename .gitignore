@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+package-lock.json
 
 
 # local env files
@@ -21,3 +22,24 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,vuejs
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,vue,vuejs
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
