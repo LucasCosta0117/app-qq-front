@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title>My Application</v-toolbar-title>
-    </v-app-bar>
+    <top-navigation-bar />
 
     <v-navigation-drawer app>
       <v-list>
@@ -22,8 +20,13 @@
 </template>
 
 <script>
+import TopNavigationBar from './components/TopNavigationBar.vue';
+
 
 export default {
   name: 'App',
+  components: {
+    TopNavigationBar
+  }
 }
 </script>
