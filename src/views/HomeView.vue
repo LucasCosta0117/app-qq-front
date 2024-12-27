@@ -1,4 +1,5 @@
 <template>
+  <PropagandaCarousel />
   <HelloWorld />
 </template>
 
@@ -6,13 +7,15 @@
 import { defineComponent } from 'vue';
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
+import HelloWorld from '../components/HelloWorld';
+import PropagandaCarousel from '../components/PropagandaCarousel';
 
 export default defineComponent({
   name: 'HomeView',
 
   components: {
     HelloWorld,
+    PropagandaCarousel
   },
 });
 </script>
